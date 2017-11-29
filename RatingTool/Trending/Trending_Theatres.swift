@@ -16,6 +16,22 @@ var theatres = ["merchants_walk","amc_theatres","regal_cinemas","ncg_cinema"]
 //var message = ["Hey, it was good seeing you today.","I just saw your last post and totally agree.","No way!"]
 var myTheatIndex = 0
 
+/////////coffee////
+var coffee = ["cool_beans","rev_coffee","revelator_coffee","starbucks"]
+//var message = ["Hey, it was good seeing you today.","I just saw your last post and totally agree.","No way!"]
+var myCoffeeIndex = 0
+//////////////////
+
+////restaurants/////
+var restaurants = ["chilis_roswellrd", "taqueria_tsunami", "stockyard_burgers"]
+var myRestauIndex = 0
+///////////////////
+
+///parks and rec///////
+var parks_and_rec = ["kennesaw_mtn","piedmont_prk","centennial_prk","goat_farm"]
+var myParkRecIndex = 0
+//////////////////////
+
 
 
 class Trending_Theatres: UITableViewController {

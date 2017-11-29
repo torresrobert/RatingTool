@@ -12,6 +12,7 @@ var fav1 = "Theatres"
 var fav2 = "Coffee"
 var fav3 = "Restaurants"
 var fav4 = "Parks and Rec"
+var fav5 = "Fast Food"
 
 struct Users{
     var email = ""

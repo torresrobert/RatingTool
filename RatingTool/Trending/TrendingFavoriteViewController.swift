@@ -11,6 +11,9 @@ import UIKit
 import CoreLocation
 import MapKit
 
+////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////theatres////////////////////////////////////
+
 struct Theatres{
     var Name = ""
     var Rating = 0
@@ -21,15 +24,13 @@ struct Theatres{
     var longitude = 0.0
     var messages = ["","","",""]
 }
-//var mWalkMessages = ["Comfy seats, friendly staff, good prices, high quality sound system and screens.","Great people, great location, great experience!","Good food, good movies, and good service."]
-
 
 var merchants_walk = Theatres(Name: "Merchants Walk",Rating: 20,Address:"1301 Johnson Ferry Rd Marietta, GA  30068 United States", NumOfRatings: 2,varname: "merchants_walk",latitude: 33.977916,longitude: -84.427445, messages: ["Comfy seats, friendly staff, good prices, high quality sound system and screens.","Great people, great location, great experience!","Good food, good movies, and good service.",""])
 var amc_theatres = Theatres(Name: "AMC Theatres",Rating: 40,Address:"3101 Cobb Pkwy Atlanta, GA  30339 United States", NumOfRatings: 10,varname: "amc_theatres",latitude: 33.879080 ,longitude: -84.456397, messages: ["Comfy seats, friendly staff, good prices, high quality sound system and screens.","Great people, great location, great experience!","Good food, good movies, and good service.",""])
 var regal_cinemas = Theatres(Name: "Regal Cinemas",Rating: -20,Address:"3950 1st St Alpharetta, GA  30009 United States", NumOfRatings: 3,varname: "regal_cinemas",latitude: 34.071921,longitude: -84.276280, messages: ["The menu, burgers are good, but Nachos done with potato chips?","The theater is beautiful.  That said, the problem is the staff. ","They do need some cleaning in the bathrooms, but the seats inside of the theater are cozy and spacious",""])
 var ncg_cinema = Theatres(Name: "NCG Cinemas",Rating: -30,Address:"1050 Powder Springs Rd SW Marietta, GA  30064 United States", NumOfRatings: 8,varname: "ncg_cinema",latitude: 33.927641,longitude: -84.572033, messages: ["Could be a bit cheaper on their food and drinks but I love this place.","Seats recline and there is plenty of room for people to walk in the aisles.","It's never packed, has reclining seats, free popcorn refills, super clean",""])
-
-
+////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////coffee////////////////////////////////////////////
 struct Coffee{
     var Name = ""
     var Rating = 0
@@ -43,6 +44,58 @@ struct Coffee{
 
 var cool_beans = Coffee(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
 
+var rev_coffee = Coffee(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+
+var revelator_coffee = Coffee(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+
+var starbucks = Coffee(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////restaurants///////////////////////////////////////
+struct Restaurants{
+    var Name = ""
+    var Rating = 0
+    var Address = ""
+    var NumOfRatings = 0
+    var varname = ""
+    var latitude = 0.0
+    var longitude = 0.0
+    var messages = ["","","",""]
+}
+
+var chilis_roswellrd = Restaurants(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+
+var taqueria_tsunami = Restaurants(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+
+var stockyard_burgers = Restaurants(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////parks and rec///////////////////////////////////////
+struct ParksAndRec{
+    var Name = ""
+    var Rating = 0
+    var Address = ""
+    var NumOfRatings = 0
+    var varname = ""
+    var latitude = 0.0
+    var longitude = 0.0
+    var messages = ["","","",""]
+}
+
+var kennesaw_mtn = ParksAndRec(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+
+var piedmont_prk = ParksAndRec(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+
+var centennial_prk = ParksAndRec(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+
+var goat_farm   = ParksAndRec(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
 let geoCoder = CLGeocoder()
 
 var tableView: UITableView!
@@ -146,8 +199,12 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
     @IBOutlet var RatingNum: UILabel!
     //@IBOutlet var cell: UITableViewCell!
     
+    
+    //works with 4 favs
     @IBAction func goToLoc(_ sender: Any) {
-        ///get directions to merchants walk
+        
+        if (currArray==theatres){
+        ///get directions to THEATRES
         if (theatres[myTheatIndex]==(merchants_walk.varname)){
         let coordinate = CLLocationCoordinate2DMake(merchants_walk.latitude, merchants_walk.longitude)
         let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
@@ -172,6 +229,82 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
             mapItem.name = ncg_cinema.Name
             mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
         }
+        }else if(currArray==coffee){
+            ///get directions to COFFEE
+            if (coffee[myTheatIndex]==(cool_beans.varname)){
+                let coordinate = CLLocationCoordinate2DMake(cool_beans.latitude, cool_beans.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = cool_beans.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+                ///get directions to amc
+            }else if (coffee[myTheatIndex]==(rev_coffee.varname)) {
+                let coordinate = CLLocationCoordinate2DMake(rev_coffee.latitude, rev_coffee.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = rev_coffee.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+                ///get directions to regal
+            }else if (coffee[myTheatIndex]==(revelator_coffee.varname)) {
+                let coordinate = CLLocationCoordinate2DMake(revelator_coffee.latitude, revelator_coffee.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = revelator_coffee.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+                ///get directions to ncg
+            }else if (coffee[myTheatIndex]==(starbucks.varname)) {
+                let coordinate = CLLocationCoordinate2DMake(starbucks.latitude, starbucks.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = starbucks.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+            }
+        }else if(currArray==restaurants){
+            ///get directions to RESTAURANTS
+            if (restaurants[myTheatIndex]==(chilis_roswellrd.varname)){
+                let coordinate = CLLocationCoordinate2DMake(chilis_roswellrd.latitude, chilis_roswellrd.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = chilis_roswellrd.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+                ///get directions to amc
+            }else if (restaurants[myTheatIndex]==(taqueria_tsunami.varname)) {
+                let coordinate = CLLocationCoordinate2DMake(taqueria_tsunami.latitude, taqueria_tsunami.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = taqueria_tsunami.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+                ///get directions to regal
+            }else if (restaurants[myTheatIndex]==(stockyard_burgers.varname)) {
+                let coordinate = CLLocationCoordinate2DMake(stockyard_burgers.latitude, stockyard_burgers.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = stockyard_burgers.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+            }
+            
+        }else if(currArray==parks_and_rec){
+            ///get directions to PARKS AND REC
+            if (parks_and_rec[myTheatIndex]==(kennesaw_mtn.varname)){
+                let coordinate = CLLocationCoordinate2DMake(kennesaw_mtn.latitude, kennesaw_mtn.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = kennesaw_mtn.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+                ///get directions to amc
+            }else if (parks_and_rec[myTheatIndex]==(piedmont_prk.varname)) {
+                let coordinate = CLLocationCoordinate2DMake(piedmont_prk.latitude, piedmont_prk.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = piedmont_prk.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+                ///get directions to regal
+            }else if (parks_and_rec[myTheatIndex]==(centennial_prk.varname)) {
+                let coordinate = CLLocationCoordinate2DMake(centennial_prk.latitude, centennial_prk.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = centennial_prk.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+                ///get directions to ncg
+            }else if (parks_and_rec[myTheatIndex]==(goat_farm.varname)) {
+                let coordinate = CLLocationCoordinate2DMake(goat_farm.latitude, goat_farm.longitude)
+                let mapItem = MKMapItem(placemark: MKPlacemark(coordinate: coordinate, addressDictionary:nil))
+                mapItem.name = goat_farm.Name
+                mapItem.openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving])
+            }
+        }else{
+            print("nothing works")
+        }
     }
     
     @IBOutlet var goToLocBttn: UIButton!
@@ -181,13 +314,19 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        myTheatIndex = currIndex
+        myCoffeeIndex = currIndex
         
         
+        AddRating.layer.cornerRadius=10
+        goToLocBttn.layer.cornerRadius=10
         
         view.addSubview(tableView)
         tableView.delegate = self
         tableView.dataSource = self
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if (currArray == theatres){
+        
         if (theatres[myTheatIndex]==(merchants_walk.varname)){
             CurrentLoc.text = merchants_walk.Name
             ImageOfCurrLoc.image = UIImage(named: merchants_walk.varname)
@@ -220,10 +359,7 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
                     let span = MKCoordinateSpanMake(0.1, 0.1)
                     let region = MKCoordinateRegionMake(centerCoordinate, span)
                     self.MapOfCurrLoc.region = region
-                
-                   
-                    
-                
+
                 }
             })
             ////////////////////////////////////////////////////
@@ -267,8 +403,7 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
                 }
             })
             ////////////////////////
-            
-            
+
         }else if (theatres[myTheatIndex]==(regal_cinemas.varname)){
             CurrentLoc.text = regal_cinemas.Name
             ImageOfCurrLoc.image = UIImage(named: regal_cinemas.varname)
@@ -299,15 +434,11 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
                     let span = MKCoordinateSpanMake(0.1, 0.1)
                     let region = MKCoordinateRegionMake(centerCoordinate, span)
                     self.MapOfCurrLoc.region = region
-                    
-                    
-                    
-                    
+ 
                 }
             })
             ////////////////////////
-            
-            
+  
         }else if (theatres[myTheatIndex]==(ncg_cinema.varname)){
             CurrentLoc.text = ncg_cinema.Name
             ImageOfCurrLoc.image = UIImage(named: ncg_cinema.varname)
@@ -340,20 +471,190 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
                     let region = MKCoordinateRegionMake(centerCoordinate, span)
                     self.MapOfCurrLoc.region = region
                     
-                    
-                    
-                    
                 }
             })
             
             
             
         }
+            
+        }else if (currArray == coffee){
+            
+            
+            
+            if (coffee[myCoffeeIndex]==(cool_beans.varname)){
+                CurrentLoc.text = cool_beans.Name
+                ImageOfCurrLoc.image = UIImage(named: cool_beans.varname)
+                RatingNum.text = String(cool_beans.Rating)
+                
+                //avgerage rating/////////
+                if (cool_beans.Rating<0){
+                    AvgRating.image = UIImage(named: "Dislike Icon")
+                }else{
+                    AvgRating.image = UIImage(named: "Like Icon")
+                }
+                //////////////////////////
+                
+                //current location handler/////////////////////////
+                let geocoder = CLGeocoder()
+                let address = cool_beans.Address
+                geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                    if((error) != nil){
+                        print("Error", error ?? "")
+                    }
+                    if let placemark = placemarks?.first {
+                        let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                        // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                        
+                        let annotation = MKPointAnnotation()
+                        let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                        annotation.coordinate = centerCoordinate
+                        annotation.title = cool_beans.Name
+                        self.MapOfCurrLoc.addAnnotation(annotation)
+                        let span = MKCoordinateSpanMake(0.1, 0.1)
+                        let region = MKCoordinateRegionMake(centerCoordinate, span)
+                        self.MapOfCurrLoc.region = region
+                        
+                    }
+                })
+                ////////////////////////////////////////////////////
+                
+                
+                
+            }else if (coffee[myCoffeeIndex]==(rev_coffee.varname)){
+                CurrentLoc.text = rev_coffee.Name
+                ImageOfCurrLoc.image = UIImage(named: rev_coffee.varname)
+                RatingNum.text = String(rev_coffee.Rating)
+                
+                //avgerage rating/////////
+                if (rev_coffee.Rating<0){
+                    AvgRating.image = UIImage(named: "Dislike Icon")
+                }else{
+                    AvgRating.image = UIImage(named: "Like Icon")
+                }
+                
+                let geocoder = CLGeocoder()
+                let address = revelator_coffee.Address
+                geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                    if((error) != nil){
+                        print("Error", error ?? "")
+                    }
+                    if let placemark = placemarks?.first {
+                        let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                        // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                        
+                        let annotation = MKPointAnnotation()
+                        let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                        annotation.coordinate = centerCoordinate
+                        annotation.title = rev_coffee.Name
+                        self.MapOfCurrLoc.addAnnotation(annotation)
+                        let span = MKCoordinateSpanMake(0.1, 0.1)
+                        let region = MKCoordinateRegionMake(centerCoordinate, span)
+                        self.MapOfCurrLoc.region = region
+                        
+                        
+                        
+                        
+                    }
+                })
+                ////////////////////////
+                
+            }else if (coffee[myCoffeeIndex]==(revelator_coffee.varname)){
+                CurrentLoc.text = revelator_coffee.Name
+                ImageOfCurrLoc.image = UIImage(named: revelator_coffee.varname)
+                RatingNum.text = String(revelator_coffee.Rating)
+                
+                //avgerage rating/////////
+                if (revelator_coffee.Rating<0){
+                    AvgRating.image = UIImage(named: "Dislike Icon")
+                }else{
+                    AvgRating.image = UIImage(named: "Like Icon")
+                }
+                
+                let geocoder = CLGeocoder()
+                let address = revelator_coffee.Address
+                geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                    if((error) != nil){
+                        print("Error", error ?? "")
+                    }
+                    if let placemark = placemarks?.first {
+                        let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                        // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                        
+                        let annotation = MKPointAnnotation()
+                        let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                        annotation.coordinate = centerCoordinate
+                        annotation.title = revelator_coffee.Name
+                        self.MapOfCurrLoc.addAnnotation(annotation)
+                        let span = MKCoordinateSpanMake(0.1, 0.1)
+                        let region = MKCoordinateRegionMake(centerCoordinate, span)
+                        self.MapOfCurrLoc.region = region
+                        
+                    }
+                })
+                ////////////////////////
+                
+            }else if (coffee[myCoffeeIndex]==(starbucks.varname)){
+                CurrentLoc.text = starbucks.Name
+                ImageOfCurrLoc.image = UIImage(named: starbucks.varname)
+                RatingNum.text = String(starbucks.Rating)
+                
+                
+                //avgerage rating/////////
+                if (starbucks.Rating<0){
+                    AvgRating.image = UIImage(named: "Dislike Icon")
+                }else{
+                    AvgRating.image = UIImage(named: "Like Icon")
+                }
+                ////////////////////////
+                let geocoder = CLGeocoder()
+                let address = starbucks.Address
+                geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                    if((error) != nil){
+                        print("Error", error ?? "")
+                    }
+                    if let placemark = placemarks?.first {
+                        let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                        // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                        
+                        let annotation = MKPointAnnotation()
+                        let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                        annotation.coordinate = centerCoordinate
+                        annotation.title = starbucks.Name
+                        self.MapOfCurrLoc.addAnnotation(annotation)
+                        let span = MKCoordinateSpanMake(0.1, 0.1)
+                        let region = MKCoordinateRegionMake(centerCoordinate, span)
+                        self.MapOfCurrLoc.region = region
+                        
+                    }
+                })
+                
+                
+                
+            }
+            
+            
+            
+            
+        }else if (currArray == restaurants){
+            
+            
+            
+            
+            
+            
+        }else if (currArray == parks_and_rec){
+            
+        }
+            
+            
+       
         
-       AddRating.layer.cornerRadius=10
-       goToLocBttn.layer.cornerRadius=10
+        }
         
-    }
+    
+
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

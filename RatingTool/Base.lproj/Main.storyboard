@@ -67,11 +67,17 @@
                                 <rect key="frame" x="266" y="102" width="98" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Parks and Rec"/>
+                                <connections>
+                                    <action selector="switch2parksnrec:" destination="yA0-ch-Bb7" eventType="touchUpInside" id="gA5-g1-WTC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUH-1f-L8h">
                                 <rect key="frame" x="168" y="102" width="82" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Restaurants"/>
+                                <connections>
+                                    <action selector="switch2restaurants:" destination="yA0-ch-Bb7" eventType="touchUpInside" id="sF0-fy-FfO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
