@@ -35,6 +35,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="yA0-ch-Bb7" id="3bB-Pe-6Av"/>
+                                    <outlet property="delegate" destination="yA0-ch-Bb7" id="kEH-Es-ius"/>
+                                </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdW-A0-137">
                                 <rect key="frame" x="79" y="44" width="217" height="58"/>
@@ -55,6 +59,9 @@
                                 <rect key="frame" x="102" y="102" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Coffee"/>
+                                <connections>
+                                    <action selector="switch2coffee:" destination="yA0-ch-Bb7" eventType="touchUpInside" id="oVZ-fP-5BZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fxw-2K-mmT">
                                 <rect key="frame" x="266" y="102" width="98" height="30"/>
