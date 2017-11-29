@@ -8,8 +8,8 @@
 
 import UIKit
 
+var currIndex = 0
 
-var tableView2: UITableView!
 
 
 class Trending: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -20,7 +20,29 @@ class Trending: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet var currFav: UILabel!
     
+    @IBAction func switch2Theat(_ sender: UIButton) {
+        
+      
+        func tableView(_ tableView: UITableView, numberOfRowsInSection: Int)->Int{
 
+            return theatres.count
+
+        }
+  
+        
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            let cell = tableView2.dequeueReusableCell(withIdentifier: "cell2trenddata", for: indexPath)
+            cell.imageView?.image = nil
+            
+            cell.imageView!.image = UIImage(named: coffee[indexPath.row])
+            
+            return cell
+            
+        }
+          currFav.text = fav1
+        
+    }
+    
     
      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return coffee.count
@@ -31,7 +53,7 @@ class Trending: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         // cell.imageView!.image = UIImage(named: "merchants_walk")
         cell.imageView!.image = UIImage(named: coffee[indexPath.row])
-        
+        //cell.layoutIfNeeded()
         //cell.textLabel?.text = theatres[indexPath.row]
         
         //currFav.text = fav2;
@@ -50,6 +72,7 @@ class Trending: UIViewController, UITableViewDelegate, UITableViewDataSource {
        // view.addSubview(tableView2)
         tableView2.delegate = self
         tableView2.dataSource = self
+        
     
     }
     
@@ -59,24 +82,6 @@ class Trending: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
     
-    @IBAction func switch2Theatres(_ sender: Any) {
-        currFav.text = fav1
-        func tableView(_ tableView: UITableView, numberOfRowsInSection: Int)->Int{
-             self.tableView2.reloadData()
-            return theatres.count
-             //self.tableView2.reloadData()
-        }
-        
-        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView2.dequeueReusableCell(withIdentifier: "cell2trenddata", for: indexPath)
-             cell.imageView!.image = UIImage(named: coffee[indexPath.row])
-             self.tableView2.reloadData()
-            return cell
-            
-        }
-        
-        self.tableView2.reloadData()
-    
-}
+
 }
 

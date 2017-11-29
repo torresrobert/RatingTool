@@ -48,7 +48,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Theatres"/>
                                 <connections>
-                                    <action selector="switch2Theatres:" destination="yA0-ch-Bb7" eventType="touchUpInside" id="0Ub-Fo-Urc"/>
+                                    <action selector="switch2Theat:" destination="yA0-ch-Bb7" eventType="touchUpInside" id="j6G-Ok-9sV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A91-SS-qmp">

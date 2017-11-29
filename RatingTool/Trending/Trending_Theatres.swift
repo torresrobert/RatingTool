@@ -46,4 +46,4 @@ class Trending_Theatres: UITableViewController {
     }
     
     
-}
+} 
