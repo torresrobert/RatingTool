@@ -32,19 +32,28 @@ class Trending: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBAction func switch2coffee(_ sender: UIButton) {
         currArray = coffee
         currFav.text = fav2
-        
+        myTheatIndex = currIndex
+        myCoffeeIndex = currIndex
+        myRestauIndex = currIndex
+        myParkRecIndex = currIndex
         tableView2.reloadData()
     }
     
     @IBAction func switch2restaurants(_ sender: UIButton) {
-        
+        myTheatIndex = currIndex
+        myCoffeeIndex = currIndex
+        myRestauIndex = currIndex
+        myParkRecIndex = currIndex
         currFav.text = fav3
         currArray = restaurants
         tableView2.reloadData()
     }
     
     @IBAction func switch2parksnrec(_ sender: UIButton) {
-        
+        myTheatIndex = currIndex
+        myCoffeeIndex = currIndex
+        myRestauIndex = currIndex
+        myParkRecIndex = currIndex
         currFav.text = fav4
         currArray = parks_and_rec
         tableView2.reloadData()

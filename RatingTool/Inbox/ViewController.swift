@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         imageView.image = UIImage(named: pets[myIndex])
         lastMessage.layer.cornerRadius=10
         
+        
     }
     
     override func didReceiveMemoryWarning() {

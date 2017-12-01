@@ -44,11 +44,11 @@ struct Coffee{
 
 var cool_beans = Coffee(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
 
-var rev_coffee = Coffee(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+var rev_coffee = Coffee(Name: "Rev Coffee",Rating: 40,Address:"1680 Spring Rd SE B, Smyrna, GA 30080", NumOfRatings: 8,varname: "rev_coffee",latitude: 33.882229,longitude: -84.504329, messages: ["Great atmosphere and service, quality coffee, lattes and smoothies","So yummy with fruit, granola and a scoop of peanut butter!","Great coffee and hard working staff, plus the place is simply charming.",""])
 
-var revelator_coffee = Coffee(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+var revelator_coffee = Coffee(Name: "Revelator Coffee Company",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "revelator_coffee",latitude: 33.786322,longitude: -84.411493, messages: ["Great place to work from home or spend a quiet weekend morning.","Free parking deck, outdoor seating, free Wi-Fi, excellent service.","Good staff, well thought out design and atmosphere.",""])
 
-var starbucks = Coffee(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+var starbucks = Coffee(Name: "Starbucks",Rating: 40,Address:"30 Whitlock Ave NW, Marietta, GA 30064", NumOfRatings: 8,varname: "starbucks",latitude: 33.953265,longitude: -84.550748, messages: ["Friendly service and as for the coffee and food?","I just paid over $9.00 for 1 piece of pumpkin cake and an iced chai tea latte.","Ordered a Grande black eye with caramel flavor and almond milk.",""])
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -64,11 +64,11 @@ struct Restaurants{
     var messages = ["","","",""]
 }
 
-var chilis_roswellrd = Restaurants(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+var chilis_roswellrd = Restaurants(Name: "Chili's Grill & Bar",Rating: 40,Address:"4111 Roswell Rd, Marietta, GA 30062 United States", NumOfRatings: 8,varname: "chilis_roswellrd",latitude: 33.987891,longitude: -84.435986, messages: ["Great food from their special's menu for a good price.","The servers always seem too busy and forget my order.","Fun place to get drinks at and watch the game.","I really like trying new appetizers here."])
 
-var taqueria_tsunami = Restaurants(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+var taqueria_tsunami = Restaurants(Name: "Taqueria Tsunami",Rating: 40,Address:"70 S Park Square NE, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "taqueria_tsunami",latitude: 33.952115,longitude: -84.549751, messages: ["Stylish place with a great selection.","Fun, new age atmosphere.","A lot of unique food for the price that you pay!","I would prefer a traditional taqueria.",""])
 
-var stockyard_burgers = Restaurants(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+var stockyard_burgers = Restaurants(Name: "Stockyard Burgers and Bones",Rating: 40,Address:"26 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "stockyard_burgers",latitude: 33.953587,longitude: -84.550796, messages: ["Beautiful fountains and scenery.","I love walking the memorial path and reading the bricks.","",""])
 
 
 
@@ -85,13 +85,13 @@ struct ParksAndRec{
     var messages = ["","","",""]
 }
 
-var kennesaw_mtn = ParksAndRec(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+var kennesaw_mtn = ParksAndRec(Name: "Kennesaw Mountain National Battlefield Park",Rating: 40,Address:"900 Kennesaw Mountain Dr, Kennesaw, GA 30188 United States", NumOfRatings: 8,varname: "kennesaw_mtn",latitude: 33.983155,longitude: -84.577988, messages: ["History was made here!","Really enjoyable place to hike on the weekend","Always too crowded whenever I go.","Nicest park to visit close to where I live."])
 
-var piedmont_prk = ParksAndRec(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+var piedmont_prk = ParksAndRec(Name: "Piedmont Park",Rating: 40,Address:"400 Park Dr NE, Atlanta, GA 30306 United States", NumOfRatings: 8,varname: "piedmont_prk",latitude: 33.785756,longitude: -84.374304, messages: ["Awesome place to find pickup games for flag football","Always a fun event going on at this place","I love taking my dogs to the park.","Tons of rare pokemon!!"])
 
-var centennial_prk = ParksAndRec(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+var centennial_prk = ParksAndRec(Name: "Centennial Olympic Park",Rating: 40,Address:"265 Park Ave W NW, Atlanta, GA 30313 United States", NumOfRatings: 8,varname: "centennial_prk",latitude: 33.759483,longitude: -84.392891, messages: ["Beautiful fountains and scenery.","I love walking the memorial path and reading the bricks.","Great place for Ultimate frisbee.","I went to a concert here and didn't like it at all."])
 
-var goat_farm   = ParksAndRec(Name: "Cool Beans",Rating: 40,Address:"31 Mill St, Marietta, GA 30060 United States", NumOfRatings: 8,varname: "cool_beans",latitude: 33.953265,longitude: -84.550748, messages: ["Excellent selection of drinks and the staff were pleasant and knowledgable","They have great prices, and their coffee blows Starbucks' out of the water!","Good bean options if you want to bring some home with you at a decent price",""])
+var goat_farm = ParksAndRec(Name: "The Goat Farm",Rating: 40,Address:"1200 Foster St NW, Atlanta, GA 30318 United States", NumOfRatings: 8,varname: "goat_farm",latitude: 33.786413,longitude:  -84.414615, messages: ["So be sure to bring cash to thank these wonderful people for their service!","Wonderful atmosphere and a really cool coffee shop next door.","Awesome place to shoot and APG is a great meetup for photographers",""])
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
@@ -316,6 +316,8 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
         super.viewDidLoad()
         myTheatIndex = currIndex
         myCoffeeIndex = currIndex
+        myRestauIndex = currIndex
+        myParkRecIndex = currIndex
         
         
         AddRating.layer.cornerRadius=10
@@ -639,24 +641,284 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
         }else if (currArray == restaurants){
             
             
-            
+            if (restaurants[myRestauIndex]==(chilis_roswellrd.varname)){
+                CurrentLoc.text = chilis_roswellrd.Name
+                ImageOfCurrLoc.image = UIImage(named: chilis_roswellrd.varname)
+                RatingNum.text = String(chilis_roswellrd.Rating)
+                
+                //avgerage rating/////////
+                if (chilis_roswellrd.Rating<0){
+                    AvgRating.image = UIImage(named: "Dislike Icon")
+                }else{
+                    AvgRating.image = UIImage(named: "Like Icon")
+                }
+                //////////////////////////
+                
+                //current location handler/////////////////////////
+                let geocoder = CLGeocoder()
+                let address = chilis_roswellrd.Address
+                geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                    if((error) != nil){
+                        print("Error", error ?? "")
+                    }
+                    if let placemark = placemarks?.first {
+                        let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                        // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                        
+                        let annotation = MKPointAnnotation()
+                        let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                        annotation.coordinate = centerCoordinate
+                        annotation.title = chilis_roswellrd.Name
+                        self.MapOfCurrLoc.addAnnotation(annotation)
+                        let span = MKCoordinateSpanMake(0.1, 0.1)
+                        let region = MKCoordinateRegionMake(centerCoordinate, span)
+                        self.MapOfCurrLoc.region = region
+                        
+                    }
+                })
+                ////////////////////////////////////////////////////
+                
+                
+                
+            }else if (restaurants[myRestauIndex]==(taqueria_tsunami.varname)){
+                CurrentLoc.text = taqueria_tsunami.Name
+                ImageOfCurrLoc.image = UIImage(named: taqueria_tsunami.varname)
+                RatingNum.text = String(taqueria_tsunami.Rating)
+                
+                //avgerage rating/////////
+                if (taqueria_tsunami.Rating<0){
+                    AvgRating.image = UIImage(named: "Dislike Icon")
+                }else{
+                    AvgRating.image = UIImage(named: "Like Icon")
+                }
+                
+                let geocoder = CLGeocoder()
+                let address = taqueria_tsunami.Address
+                geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                    if((error) != nil){
+                        print("Error", error ?? "")
+                    }
+                    if let placemark = placemarks?.first {
+                        let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                        // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                        
+                        let annotation = MKPointAnnotation()
+                        let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                        annotation.coordinate = centerCoordinate
+                        annotation.title = taqueria_tsunami.Name
+                        self.MapOfCurrLoc.addAnnotation(annotation)
+                        let span = MKCoordinateSpanMake(0.1, 0.1)
+                        let region = MKCoordinateRegionMake(centerCoordinate, span)
+                        self.MapOfCurrLoc.region = region
+                        
+                        
+                        
+                        
+                    }
+                })
+                ////////////////////////
+                
+            }else if (restaurants[myCoffeeIndex]==(stockyard_burgers.varname)){
+                CurrentLoc.text = stockyard_burgers.Name
+                ImageOfCurrLoc.image = UIImage(named: stockyard_burgers.varname)
+                RatingNum.text = String(stockyard_burgers.Rating)
+                
+                //avgerage rating/////////
+                if (stockyard_burgers.Rating<0){
+                    AvgRating.image = UIImage(named: "Dislike Icon")
+                }else{
+                    AvgRating.image = UIImage(named: "Like Icon")
+                }
+                
+                let geocoder = CLGeocoder()
+                let address = stockyard_burgers.Address
+                geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                    if((error) != nil){
+                        print("Error", error ?? "")
+                    }
+                    if let placemark = placemarks?.first {
+                        let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                        // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                        
+                        let annotation = MKPointAnnotation()
+                        let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                        annotation.coordinate = centerCoordinate
+                        annotation.title = stockyard_burgers.Name
+                        self.MapOfCurrLoc.addAnnotation(annotation)
+                        let span = MKCoordinateSpanMake(0.1, 0.1)
+                        let region = MKCoordinateRegionMake(centerCoordinate, span)
+                        self.MapOfCurrLoc.region = region
+                        
+                    }
+                })
+                ////////////////////////
+                
+            }
             
             
             
         }else if (currArray == parks_and_rec){
             
-        }
+        
+            
+        if (parks_and_rec[myParkRecIndex]==(kennesaw_mtn.varname)){
+            CurrentLoc.text = kennesaw_mtn.Name
+            ImageOfCurrLoc.image = UIImage(named: kennesaw_mtn.varname)
+            RatingNum.text = String(kennesaw_mtn.Rating)
+            
+            //avgerage rating/////////
+            if (kennesaw_mtn.Rating<0){
+                AvgRating.image = UIImage(named: "Dislike Icon")
+            }else{
+                AvgRating.image = UIImage(named: "Like Icon")
+            }
+            //////////////////////////
+            
+            //current location handler/////////////////////////
+            let geocoder = CLGeocoder()
+            let address = kennesaw_mtn.Address
+            geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                if((error) != nil){
+                    print("Error", error ?? "")
+                }
+                if let placemark = placemarks?.first {
+                    let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                    // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                    
+                    let annotation = MKPointAnnotation()
+                    let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                    annotation.coordinate = centerCoordinate
+                    annotation.title = kennesaw_mtn.Name
+                    self.MapOfCurrLoc.addAnnotation(annotation)
+                    let span = MKCoordinateSpanMake(0.1, 0.1)
+                    let region = MKCoordinateRegionMake(centerCoordinate, span)
+                    self.MapOfCurrLoc.region = region
+                    
+                }
+            })
+            ////////////////////////////////////////////////////
             
             
-       
+            
+        }else if (parks_and_rec[myParkRecIndex]==(piedmont_prk.varname)){
+            CurrentLoc.text = piedmont_prk.Name
+            ImageOfCurrLoc.image = UIImage(named: piedmont_prk.varname)
+            RatingNum.text = String(piedmont_prk.Rating)
+            
+            //avgerage rating/////////
+            if (piedmont_prk.Rating<0){
+                AvgRating.image = UIImage(named: "Dislike Icon")
+            }else{
+                AvgRating.image = UIImage(named: "Like Icon")
+            }
+            
+            let geocoder = CLGeocoder()
+            let address = piedmont_prk.Address
+            geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                if((error) != nil){
+                    print("Error", error ?? "")
+                }
+                if let placemark = placemarks?.first {
+                    let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                    // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                    
+                    let annotation = MKPointAnnotation()
+                    let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                    annotation.coordinate = centerCoordinate
+                    annotation.title = piedmont_prk.Name
+                    self.MapOfCurrLoc.addAnnotation(annotation)
+                    let span = MKCoordinateSpanMake(0.1, 0.1)
+                    let region = MKCoordinateRegionMake(centerCoordinate, span)
+                    self.MapOfCurrLoc.region = region
+                    
+                    
+                    
+                    
+                }
+            })
+            ////////////////////////
+            
+        }else if (parks_and_rec[myParkRecIndex]==(centennial_prk.varname)){
+            CurrentLoc.text = centennial_prk.Name
+            ImageOfCurrLoc.image = UIImage(named: centennial_prk.varname)
+            RatingNum.text = String(centennial_prk.Rating)
+            
+            //avgerage rating/////////
+            if (centennial_prk.Rating<0){
+                AvgRating.image = UIImage(named: "Dislike Icon")
+            }else{
+                AvgRating.image = UIImage(named: "Like Icon")
+            }
+            
+            let geocoder = CLGeocoder()
+            let address = centennial_prk.Address
+            geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                if((error) != nil){
+                    print("Error", error ?? "")
+                }
+                if let placemark = placemarks?.first {
+                    let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                    // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                    
+                    let annotation = MKPointAnnotation()
+                    let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                    annotation.coordinate = centerCoordinate
+                    annotation.title = centennial_prk.Name
+                    self.MapOfCurrLoc.addAnnotation(annotation)
+                    let span = MKCoordinateSpanMake(0.1, 0.1)
+                    let region = MKCoordinateRegionMake(centerCoordinate, span)
+                    self.MapOfCurrLoc.region = region
+                    
+                }
+            })
+            ////////////////////////
+            
+        }else if (parks_and_rec[myParkRecIndex]==(goat_farm.varname)){
+            CurrentLoc.text = goat_farm.Name
+            ImageOfCurrLoc.image = UIImage(named: goat_farm.varname)
+            RatingNum.text = String(goat_farm.Rating)
+            
+            
+            //avgerage rating/////////
+            if (goat_farm.Rating<0){
+                AvgRating.image = UIImage(named: "Dislike Icon")
+            }else{
+                AvgRating.image = UIImage(named: "Like Icon")
+            }
+            ////////////////////////
+            let geocoder = CLGeocoder()
+            let address = goat_farm.Address
+            geocoder.geocodeAddressString(address, completionHandler: {(placemarks, error) -> Void in
+                if((error) != nil){
+                    print("Error", error ?? "")
+                }
+                if let placemark = placemarks?.first {
+                    let coordinates:CLLocationCoordinate2D = placemark.location!.coordinate
+                    // print("Lat: \(coordinates.latitude) -- Long: \(coordinates.longitude)")
+                    
+                    let annotation = MKPointAnnotation()
+                    let centerCoordinate = CLLocationCoordinate2D(latitude: coordinates.latitude, longitude:coordinates.longitude)
+                    annotation.coordinate = centerCoordinate
+                    annotation.title = goat_farm.Name
+                    self.MapOfCurrLoc.addAnnotation(annotation)
+                    let span = MKCoordinateSpanMake(0.1, 0.1)
+                    let region = MKCoordinateRegionMake(centerCoordinate, span)
+                    self.MapOfCurrLoc.region = region
+                    
+                }
+            })
+            
+            
+            
+            }
         
-        }
         
+        }}
     
 
 
     
-    override func didReceiveMemoryWarning() {
+override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -677,6 +939,7 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
                     
         }
     }
+    
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -718,7 +981,7 @@ class TrendingFavoriteViewController: UIViewController, UITableViewDelegate, UIT
     
     
     
-    
-}
+    }
+
 
 
