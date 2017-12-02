@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C66108D5B5EFC700C0E7F3B /* Pods_RatingTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7A045422DC30A013DDC3A9 /* Pods_RatingTool.framework */; };
 		7F41BC541FC4F3CE00202717 /* TrendingFavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F41BC531FC4F3CE00202717 /* TrendingFavoriteViewController.swift */; };
 		7F41BC581FC7592800202717 /* chooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F41BC571FC7592800202717 /* chooseView.swift */; };
 		7F59BEDF1FB4E3B80001DD90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F59BEDE1FB4E3B80001DD90 /* AppDelegate.swift */; };
@@ -14,9 +15,8 @@
 		7F59BEE61FB4E3B80001DD90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F59BEE41FB4E3B80001DD90 /* Main.storyboard */; };
 		7F59BEE81FB4E3B80001DD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F59BEE71FB4E3B80001DD90 /* Assets.xcassets */; };
 		7F59BEEB1FB4E3B80001DD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F59BEE91FB4E3B80001DD90 /* LaunchScreen.storyboard */; };
-		7F59BEF61FB4E3B80001DD90 /* RatingToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F59BEF51FB4E3B80001DD90 /* RatingToolTests.swift */; };
-		7F59BF011FB4E3B90001DD90 /* RatingToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F59BF001FB4E3B90001DD90 /* RatingToolUITests.swift */; };
 		7F59BF251FB5FF350001DD90 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F59BF241FB5FF350001DD90 /* TableViewController.swift */; };
+		7F7D1F9C1FD0EA9F00EADE6B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F7D1F9B1FD0EA9F00EADE6B /* GoogleService-Info.plist */; };
 		7F871A021FC1D89C002C30CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F871A011FC1D89C002C30CF /* ViewController.swift */; };
 		7F871A041FC34E73002C30CF /* ProfileTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F871A031FC34E73002C30CF /* ProfileTabViewController.swift */; };
 		7F871A061FC3575E002C30CF /* Trending_Theatres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F871A051FC3575E002C30CF /* Trending_Theatres.swift */; };
@@ -45,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BEA4DDC18E498DB49486C47 /* Pods-RatingTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatingTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RatingTool/Pods-RatingTool.debug.xcconfig"; sourceTree = "<group>"; };
+		611CC4A18DC863C3A6A9A52C /* Pods-RatingTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RatingTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-RatingTool/Pods-RatingTool.release.xcconfig"; sourceTree = "<group>"; };
+		7A7A045422DC30A013DDC3A9 /* Pods_RatingTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RatingTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F41BC531FC4F3CE00202717 /* TrendingFavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingFavoriteViewController.swift; sourceTree = "<group>"; };
 		7F41BC571FC7592800202717 /* chooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseView.swift; sourceTree = "<group>"; };
 		7F59BEDB1FB4E3B80001DD90 /* RatingTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,12 +58,9 @@
 		7F59BEEA1FB4E3B80001DD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F59BEEC1FB4E3B80001DD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F59BEF11FB4E3B80001DD90 /* RatingToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F59BEF51FB4E3B80001DD90 /* RatingToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingToolTests.swift; sourceTree = "<group>"; };
-		7F59BEF71FB4E3B80001DD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F59BEFC1FB4E3B90001DD90 /* RatingToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F59BF001FB4E3B90001DD90 /* RatingToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingToolUITests.swift; sourceTree = "<group>"; };
-		7F59BF021FB4E3B90001DD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F59BF241FB5FF350001DD90 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7F7D1F9B1FD0EA9F00EADE6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "RatingTool/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7F871A011FC1D89C002C30CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F871A031FC34E73002C30CF /* ProfileTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabViewController.swift; sourceTree = "<group>"; };
 		7F871A051FC3575E002C30CF /* Trending_Theatres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trending_Theatres.swift; sourceTree = "<group>"; };
@@ -76,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C66108D5B5EFC700C0E7F3B /* Pods_RatingTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,13 +97,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44C17A51CDCC6CF9F3B8E093 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BEA4DDC18E498DB49486C47 /* Pods-RatingTool.debug.xcconfig */,
+				611CC4A18DC863C3A6A9A52C /* Pods-RatingTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C2369E7527136B1FCA6CE2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F7D1F9B1FD0EA9F00EADE6B /* GoogleService-Info.plist */,
+				7A7A045422DC30A013DDC3A9 /* Pods_RatingTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F59BED21FB4E3B80001DD90 = {
 			isa = PBXGroup;
 			children = (
 				7F59BEDD1FB4E3B80001DD90 /* RatingTool */,
-				7F59BEF41FB4E3B80001DD90 /* RatingToolTests */,
-				7F59BEFF1FB4E3B90001DD90 /* RatingToolUITests */,
 				7F59BEDC1FB4E3B80001DD90 /* Products */,
+				44C17A51CDCC6CF9F3B8E093 /* Pods */,
+				5C2369E7527136B1FCA6CE2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,24 +150,6 @@
 				7F59BEEC1FB4E3B80001DD90 /* Info.plist */,
 			);
 			path = RatingTool;
-			sourceTree = "<group>";
-		};
-		7F59BEF41FB4E3B80001DD90 /* RatingToolTests */ = {
-			isa = PBXGroup;
-			children = (
-				7F59BEF51FB4E3B80001DD90 /* RatingToolTests.swift */,
-				7F59BEF71FB4E3B80001DD90 /* Info.plist */,
-			);
-			path = RatingToolTests;
-			sourceTree = "<group>";
-		};
-		7F59BEFF1FB4E3B90001DD90 /* RatingToolUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7F59BF001FB4E3B90001DD90 /* RatingToolUITests.swift */,
-				7F59BF021FB4E3B90001DD90 /* Info.plist */,
-			);
-			path = RatingToolUITests;
 			sourceTree = "<group>";
 		};
 		7F871A071FC35848002C30CF /* Trending */ = {
@@ -189,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F59BF051FB4E3B90001DD90 /* Build configuration list for PBXNativeTarget "RatingTool" */;
 			buildPhases = (
+				06E7F725AB53805E43AD82BA /* [CP] Check Pods Manifest.lock */,
 				7F59BED71FB4E3B80001DD90 /* Sources */,
 				7F59BED81FB4E3B80001DD90 /* Frameworks */,
 				7F59BED91FB4E3B80001DD90 /* Resources */,
+				3154FF4A21B9E650558A1BED /* [CP] Embed Pods Frameworks */,
+				4961D0009858C1D0788BC971 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F59BEEB1FB4E3B80001DD90 /* LaunchScreen.storyboard in Resources */,
+				7F7D1F9C1FD0EA9F00EADE6B /* GoogleService-Info.plist in Resources */,
 				7F59BEE81FB4E3B80001DD90 /* Assets.xcassets in Resources */,
 				7F59BEE61FB4E3B80001DD90 /* Main.storyboard in Resources */,
 			);
@@ -310,6 +315,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E7F725AB53805E43AD82BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RatingTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3154FF4A21B9E650558A1BED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RatingTool/Pods-RatingTool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RatingTool/Pods-RatingTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4961D0009858C1D0788BC971 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RatingTool/Pods-RatingTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F59BED71FB4E3B80001DD90 /* Sources */ = {
@@ -336,7 +401,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F59BEF61FB4E3B80001DD90 /* RatingToolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +408,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F59BF011FB4E3B90001DD90 /* RatingToolUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +555,7 @@
 		};
 		7F59BF061FB4E3B90001DD90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BEA4DDC18E498DB49486C47 /* Pods-RatingTool.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -509,6 +573,7 @@
 		};
 		7F59BF071FB4E3B90001DD90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 611CC4A18DC863C3A6A9A52C /* Pods-RatingTool.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
