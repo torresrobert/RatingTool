@@ -46,11 +46,8 @@ class Trending_Theatres: UITableViewController {
      override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
-       // cell.imageView!.image = UIImage(named: "merchants_walk")
         cell.imageView!.image = UIImage(named: theatres[indexPath.row])
-       
-        //cell.textLabel?.text = theatres[indexPath.row]
-        
+
         favorite.text = fav1;
         
         return cell
