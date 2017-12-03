@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 
 var myname = "Steve"
@@ -92,6 +93,19 @@ class ProfileTabViewController: UIViewController, UITableViewDataSource, UITable
         }))
         self.present(alert, animated: true, completion: nil)
         
+    }
+    
+    @IBAction func logOutAction(sender: AnyObject) {
+        if Auth.auth().currentUser != nil {
+            do {
+                try Auth.auth().signOut()
+                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SignUp")
+                present(vc, animated: true, completion: nil)
+                
+            } catch let error as NSError {
+                print(error.localizedDescription)
+            }
+        }
     }
     
     

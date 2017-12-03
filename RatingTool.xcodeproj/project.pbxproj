@@ -20,10 +20,6 @@
 		7F871A021FC1D89C002C30CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F871A011FC1D89C002C30CF /* ViewController.swift */; };
 		7F871A041FC34E73002C30CF /* ProfileTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F871A031FC34E73002C30CF /* ProfileTabViewController.swift */; };
 		7F871A061FC3575E002C30CF /* Trending_Theatres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F871A051FC3575E002C30CF /* Trending_Theatres.swift */; };
-		7F871A091FC35899002C30CF /* Trending_Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F871A081FC35899002C30CF /* Trending_Coffee.swift */; };
-		7F871A0B1FC358AB002C30CF /* Trending_Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F871A0A1FC358AB002C30CF /* Trending_Restaurants.swift */; };
-		7F871A0D1FC358B9002C30CF /* Trending_Parks_and_Rec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F871A0C1FC358B9002C30CF /* Trending_Parks_and_Rec.swift */; };
-		7F871A0F1FC358CA002C30CF /* Trending_Fast_Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F871A0E1FC358CA002C30CF /* Trending_Fast_Food.swift */; };
 		7FE96ADE1FCC4B740080A11E /* Trending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE96ADD1FCC4B740080A11E /* Trending.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,10 +60,6 @@
 		7F871A011FC1D89C002C30CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F871A031FC34E73002C30CF /* ProfileTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTabViewController.swift; sourceTree = "<group>"; };
 		7F871A051FC3575E002C30CF /* Trending_Theatres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trending_Theatres.swift; sourceTree = "<group>"; };
-		7F871A081FC35899002C30CF /* Trending_Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trending_Coffee.swift; sourceTree = "<group>"; };
-		7F871A0A1FC358AB002C30CF /* Trending_Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trending_Restaurants.swift; sourceTree = "<group>"; };
-		7F871A0C1FC358B9002C30CF /* Trending_Parks_and_Rec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trending_Parks_and_Rec.swift; sourceTree = "<group>"; };
-		7F871A0E1FC358CA002C30CF /* Trending_Fast_Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trending_Fast_Food.swift; sourceTree = "<group>"; };
 		7FE96ADD1FCC4B740080A11E /* Trending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trending.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,10 +150,6 @@
 				7F871A051FC3575E002C30CF /* Trending_Theatres.swift */,
 				7F41BC531FC4F3CE00202717 /* TrendingFavoriteViewController.swift */,
 				7FE96ADD1FCC4B740080A11E /* Trending.swift */,
-				7F871A081FC35899002C30CF /* Trending_Coffee.swift */,
-				7F871A0A1FC358AB002C30CF /* Trending_Restaurants.swift */,
-				7F871A0C1FC358B9002C30CF /* Trending_Parks_and_Rec.swift */,
-				7F871A0E1FC358CA002C30CF /* Trending_Fast_Food.swift */,
 			);
 			path = Trending;
 			sourceTree = "<group>";
@@ -383,14 +371,10 @@
 			files = (
 				7F59BEDF1FB4E3B80001DD90 /* AppDelegate.swift in Sources */,
 				7F59BEE11FB4E3B80001DD90 /* FirstViewController.swift in Sources */,
-				7F871A0F1FC358CA002C30CF /* Trending_Fast_Food.swift in Sources */,
-				7F871A091FC35899002C30CF /* Trending_Coffee.swift in Sources */,
 				7FE96ADE1FCC4B740080A11E /* Trending.swift in Sources */,
-				7F871A0B1FC358AB002C30CF /* Trending_Restaurants.swift in Sources */,
 				7F41BC541FC4F3CE00202717 /* TrendingFavoriteViewController.swift in Sources */,
 				7F871A021FC1D89C002C30CF /* ViewController.swift in Sources */,
 				7F871A041FC34E73002C30CF /* ProfileTabViewController.swift in Sources */,
-				7F871A0D1FC358B9002C30CF /* Trending_Parks_and_Rec.swift in Sources */,
 				7F871A061FC3575E002C30CF /* Trending_Theatres.swift in Sources */,
 				7F59BF251FB5FF350001DD90 /* TableViewController.swift in Sources */,
 				7F41BC581FC7592800202717 /* chooseView.swift in Sources */,
@@ -563,11 +547,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EK8QW5495W;
 				INFOPLIST_FILE = RatingTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = finalproject.usercenterdesign.torresrobert.RatingTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -581,11 +566,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EK8QW5495W;
 				INFOPLIST_FILE = RatingTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = finalproject.usercenterdesign.torresrobert.RatingTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

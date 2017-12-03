@@ -25,9 +25,6 @@ struct Users{
     var name = ""
     var password = ""
 }
-var robert = Users(email: "robert@ratingtool.com",name: "Robert",password: "Panda0")
-
-//var robert = Users(email: "robert@ratingtool.com",name: "Robert",password = "Panda0")
 
 class FirstViewController: UIViewController {
     

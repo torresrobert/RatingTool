@@ -922,7 +922,43 @@ override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        if (currArray==theatres){
+            if (theatres[myTheatIndex]==(merchants_walk.varname)){
+                return merchants_walk.messages.count;
+                ///get num of messages for amc
+            }else if (theatres[myTheatIndex]==(amc_theatres.varname)) {
+                return amc_theatres.messages.count;
+                ///get num of messages for regal
+            }else if (theatres[myTheatIndex]==(regal_cinemas.varname)) {
+                return regal_cinemas.messages.count;
+                ///get num of messages for ncg
+            }else if (theatres[myTheatIndex]==(ncg_cinema.varname)) {
+                return ncg_cinema.messages.count;
+            }else{
+                return 0
+                
+            }}
+        else if (currArray==coffee){
+            if (theatres[myTheatIndex]==(merchants_walk.varname)){
+                return merchants_walk.messages.count;
+                ///get num of messages for amc
+            }else if (theatres[myTheatIndex]==(amc_theatres.varname)) {
+                return amc_theatres.messages.count;
+                ///get num of messages for regal
+            }else if (theatres[myTheatIndex]==(regal_cinemas.varname)) {
+                return regal_cinemas.messages.count;
+                ///get num of messages for ncg
+            }else if (theatres[myTheatIndex]==(ncg_cinema.varname)) {
+                return ncg_cinema.messages.count;
+            }else{
+                return 0
+            }
+        }
+            else if (currArray==restaurants){
                 if (theatres[myTheatIndex]==(merchants_walk.varname)){
                     return merchants_walk.messages.count;
                     ///get num of messages for amc
@@ -936,16 +972,35 @@ override func didReceiveMemoryWarning() {
                     return ncg_cinema.messages.count;
                 }else{
                     return 0
-                    
+                }
+            }
+        else if(currArray==parks_and_rec){
+                    if (theatres[myTheatIndex]==(merchants_walk.varname)){
+                        return merchants_walk.messages.count;
+                        ///get num of messages for amc
+                    }else if (theatres[myTheatIndex]==(amc_theatres.varname)) {
+                        return amc_theatres.messages.count;
+                        ///get num of messages for regal
+                    }else if (theatres[myTheatIndex]==(regal_cinemas.varname)) {
+                        return regal_cinemas.messages.count;
+                        ///get num of messages for ncg
+                    }else if (theatres[myTheatIndex]==(ncg_cinema.varname)) {
+                        return ncg_cinema.messages.count;
+                    }
         }
+        
+        return 0
     }
+
     
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellMess", for: indexPath)
-                if (theatres[myTheatIndex]==(merchants_walk.varname)){
+        
+        if (currArray==theatres){
+        if (theatres[myTheatIndex]==(merchants_walk.varname)){
         cell.textLabel!.text = merchants_walk.messages[indexPath.row]
         return (cell)
         ///get num of messages for amc
@@ -966,8 +1021,69 @@ override func didReceiveMemoryWarning() {
                 }else{
                     return cell
                 }
+        }else if(currArray==coffee){
+         if (coffee[myCoffeeIndex]==(cool_beans.varname)){
+            cell.textLabel!.text = cool_beans.messages[indexPath.row]
+            return (cell)
+            ///get num of messages for amc
+        }else if (coffee[myCoffeeIndex]==(rev_coffee.varname)) {
+            cell.textLabel?.text = rev_coffee.messages[indexPath.row]
+            return cell
+            //return cellMessages
+            ///get num of messages for regal
+        }else if (coffee[myCoffeeIndex]==(revelator_coffee.varname)) {
+            cell.textLabel?.text = revelator_coffee.messages[indexPath.row]
+            return cell
+            //return cellMessages
+            ///get num of messages for ncg
+        }else if (coffee[myCoffeeIndex]==(starbucks.varname)) {
+            cell.textLabel?.text = starbucks.messages[indexPath.row]
+            return cell
+            //return cellMessages
+        }else{
+            return cell
+        }
+        }else if(currArray==restaurants) {
+        if (restaurants[myRestauIndex]==(chilis_roswellrd.varname)){
+            cell.textLabel!.text = chilis_roswellrd.messages[indexPath.row]
+            return (cell)
+            ///get num of messages for amc
+        }else if (restaurants[myRestauIndex]==(taqueria_tsunami.varname)) {
+            cell.textLabel?.text = taqueria_tsunami.messages[indexPath.row]
+            return cell
+            //return cellMessages
+            ///get num of messages for regal
+        }else if (restaurants[myRestauIndex]==(stockyard_burgers.varname)) {
+            cell.textLabel?.text = stockyard_burgers.messages[indexPath.row]
+            return cell
+            //return cellMessages
+            ///get num of messages for ncg
+        }else{
+            return cell
+        }
+        }
+        else if(currArray==parks_and_rec){
+        if (parks_and_rec[myParkRecIndex]==(kennesaw_mtn.varname)){
+            cell.textLabel!.text = kennesaw_mtn.messages[indexPath.row]
+            return (cell)
+            ///get num of messages for amc
+        }else if (parks_and_rec[myParkRecIndex]==(piedmont_prk.varname)) {
+            cell.textLabel?.text = piedmont_prk.messages[indexPath.row]
+            return cell
+            //return cellMessages
+            ///get num of messages for regal
+        }else if (parks_and_rec[myParkRecIndex]==(centennial_prk.varname)) {
+            cell.textLabel?.text = centennial_prk.messages[indexPath.row]
+            return cell
+            //return cellMessages
+            ///get num of messages for ncg
+        }else if (parks_and_rec[myParkRecIndex]==(goat_farm.varname)) {
+            cell.textLabel?.text = goat_farm.messages[indexPath.row]
+            return cell
+            //return cellMessages
+        }}
         
-        
+        return cell
     }
     
     func createAlert (title:String!, message:String!){
